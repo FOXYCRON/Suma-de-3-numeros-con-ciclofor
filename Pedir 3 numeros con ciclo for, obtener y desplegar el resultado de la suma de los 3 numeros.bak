@@ -1,0 +1,19 @@
+/* Pedir 3 numeros con ciclo for, obtener y desplegar el resultado de la suma de los 3 numeros */
+#include<conio.h>
+#include<stdio.h>
+int num, suma, x;
+main()
+{
+
+	suma = 0;
+   printf(" Suma De 3 Numeros \n\n");
+   for(x=1; x<=3; x=x+1)
+{
+   printf("\n %d. Donde los numeros: ", x); scanf("%d", &num);
+   suma = suma + num;
+}
+  printf(" La Suma De Los 3 Numeros es: %d", suma);
+  printf("\n\n\n\n Autor: Irvin Adrian");
+  getch();
+
+}
